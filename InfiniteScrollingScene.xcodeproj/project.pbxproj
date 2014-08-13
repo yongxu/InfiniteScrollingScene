@@ -14,6 +14,7 @@
 		B74A2D09199C09370060CD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74A2D07199C09370060CD70 /* Main.storyboard */; };
 		B74A2D0B199C09370060CD70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74A2D0A199C09370060CD70 /* Images.xcassets */; };
 		B74A2D17199C09370060CD70 /* InfiniteScrollingSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74A2D16199C09370060CD70 /* InfiniteScrollingSceneTests.swift */; };
+		B74A2D21199C09610060CD70 /* InfiniteScrollingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74A2D20199C09610060CD70 /* InfiniteScrollingNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B74A2D10199C09370060CD70 /* InfiniteScrollingSceneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollingSceneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74A2D15199C09370060CD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74A2D16199C09370060CD70 /* InfiniteScrollingSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingSceneTests.swift; sourceTree = "<group>"; };
+		B74A2D20199C09610060CD70 /* InfiniteScrollingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				B74A2CFF199C09370060CD70 /* AppDelegate.swift */,
 				B74A2D01199C09370060CD70 /* GameScene.sks */,
 				B74A2D03199C09370060CD70 /* GameScene.swift */,
+				B74A2D20199C09610060CD70 /* InfiniteScrollingNode.swift */,
 				B74A2D05199C09370060CD70 /* GameViewController.swift */,
 				B74A2D07199C09370060CD70 /* Main.storyboard */,
 				B74A2D0A199C09370060CD70 /* Images.xcassets */,
@@ -218,6 +221,7 @@
 				B74A2D04199C09370060CD70 /* GameScene.swift in Sources */,
 				B74A2D06199C09370060CD70 /* GameViewController.swift in Sources */,
 				B74A2D00199C09370060CD70 /* AppDelegate.swift in Sources */,
+				B74A2D21199C09610060CD70 /* InfiniteScrollingNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
